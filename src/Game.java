@@ -202,11 +202,11 @@ public class Game extends JComponent
 
         //idk if u need to change the path names of these cuz theyre specific to my computer but im attaching the images i used
         //resolution of these kinda suck so that it fits a good ship size
-        String imagePath = "/Users/rujultelavane/Downloads/nyan_cat.png";//makes rocket into nyan cat HEHEHEH
+        String imagePath = "src/resources/nyan_cat.png";//makes rocket into nyan cat HEHEHEH
         if (lives==1)
-            imagePath = "/Users/rujultelavane/Downloads/dying_nyan.png"; //when have one life left, evil nyan
+            imagePath = "/src/resources/dying_nyan.png"; //when have one life left, evil nyan
         if(lives==2)
-            imagePath = "/Users/rujultelavane/Downloads/yellow_nyan.png"; //yellow
+            imagePath = "src/resources/yellow_nyan.png"; //yellow
         ImageIcon icon=new ImageIcon(imagePath);
         image=icon.getImage();
         ImagePanel imagePanel = new ImagePanel(imagePath);
